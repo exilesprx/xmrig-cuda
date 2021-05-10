@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+    gpu-miner:
+        build: .
+        environment:
+            - POOL=$POOL
+            - PORT=$PORT
+            - WALLET=$WALLET
